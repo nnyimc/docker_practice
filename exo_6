@@ -1,0 +1,6 @@
+1 - sudo docker run -d --expose 80 nginx:1.14, lancement d'un container en arrière plan en exposant le port 80
+2 - sudo docker inspect <ID>
+1 - sudo docker run -d --expose 80 nginx:1:14
+2 - sudo docker inspect <ID>
+3 - sudo docker inspect --format '{{ .Name }} -{{ .ID }}' <ID container>
+ 

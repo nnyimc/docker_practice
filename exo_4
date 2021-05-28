@@ -1,0 +1,3 @@
+sudo docker run -it alpine:3.13.5 ping 8.8.8.8 --> le container s'interrompt avec un ctrl-c
+                                                   le container poursuit son éxecution avec un ctrl-p ctrl-q
+sudo docker run -d alpine:3.13.5 ping 8.8.8.8 --> Le comportement est identique, le fait de le lancer en background evite d'avoir à faire un ctrl-p et ctrl-q

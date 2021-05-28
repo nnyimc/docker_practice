@@ -1,0 +1,4 @@
+1 - sudo docker run -d --name=ping alpine:3.13.5 ping 8.8.8.8
+2 - sudo docker logs <ID>
+3 - sudo docker exec -it <ID> /bin/sh
+

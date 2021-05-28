@@ -1,0 +1,4 @@
+docker ps --> liste des containers en cours d'éxecution
+docker ps -a --> liste de tous les containers, stoppés ou non
+docker ps -q --> liste des id de containers en cours d'éxécution
+docker ps -qa --> liste de tous les ids de containers, stoppés ou non

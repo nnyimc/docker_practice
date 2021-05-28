@@ -1,0 +1,2 @@
+1 - Lorsqu'on lance un container alpine en mode interactif, sans préciser de commande, on se retrouve dans la console.
+2 - /bin/sh est la commande éxecutée par défaut

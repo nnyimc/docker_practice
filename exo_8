@@ -1,0 +1,5 @@
+1 - sudo docker ps -a
+2 - sudo docker stop $(sudo docker ps -qa)
+3 - sudo docker ps
+4 - sudo docker ps -a
+5 - sudo docker rm $(sudo docker ps -qa)
